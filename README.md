@@ -1,4 +1,4 @@
-# Mincer JSX
+# Mincer Babel
 
 [Babeljs ES6](https://babeljs.io/) transformation engine for [Mincer](https://github.com/nodeca/mincer).
 
@@ -42,7 +42,7 @@ $ npm test
 
 The MIT License (MIT)
 
-Copyright © 2015-2015 Simon Schuler <simon.schuler@itds.ch>
+Copyright © 2015 Simon Schuler <simon.schuler@itds.ch>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
