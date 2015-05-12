@@ -1,0 +1,27 @@
+{
+  "name": "mincer-babel",
+  "version": "0.0.1",
+  "description": "Babel engine for Mincer",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "mincer-contrib",
+    "mincer",
+    "assets",
+    "pipeline",
+    "babel"
+  ],
+  "author": "Simon Schuler",
+  "license": "MIT",
+  "devDependencies": {
+    "mincer": "^1.2.4"
+  },
+  "peerDependencies": {
+    "mincer": "~1.2"
+  },
+  "dependencies": {
+    "babel-core": "^5.2.17"
+  }
+}
