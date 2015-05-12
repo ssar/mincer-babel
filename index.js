@@ -46,6 +46,6 @@ module.exports = function addBabelEngine(Mincer, babel) {
 		// context.dependOn(file2);
 	};
 
-	Mincer.registerEngine('.babel', Mincer.BabelEngine);
+	Mincer.registerEngine('.es6', Mincer.BabelEngine);
 
 };
