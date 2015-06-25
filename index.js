@@ -1,5 +1,7 @@
 'use strict';
 
+var prop = require('mincer/lib/mincer/common').prop;
+
 // stdlib
 var path = require('path');
 
@@ -47,5 +49,6 @@ module.exports = function addBabelEngine(Mincer, babel) {
 	};
 
 	Mincer.registerEngine('.es6', Mincer.BabelEngine);
-
+	
+	prop(Mincer.BabelEngine, 'defaultMimeType', 'application/javascript');
 };
