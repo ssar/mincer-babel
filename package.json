@@ -1,6 +1,6 @@
 {
   "name": "mincer-babel",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Babel ES6 engine for Mincer",
   "main": "index.js",
   "scripts": {
