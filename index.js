@@ -16,7 +16,7 @@ module.exports = function addBabelEngine(Mincer, babel) {
 
 	require('util').inherits(BabelEngine, Mincer.Template);
 
-	BabelEngine.prototype.evaluate = function evaluate(context, locals) {
+	BabelEngine.prototype.evaluate = function evaluate(context) {
 		var withSourcemap = context.environment.isEnabled('source_maps');
 		var source = this.data;
 		var dir = path.dirname(context.pathname);
@@ -49,6 +49,6 @@ module.exports = function addBabelEngine(Mincer, babel) {
 	};
 
 	Mincer.registerEngine('.es6', Mincer.BabelEngine);
-	
+
 	prop(Mincer.BabelEngine, 'defaultMimeType', 'application/javascript');
 };

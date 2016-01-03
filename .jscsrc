@@ -1,0 +1,13 @@
+{
+  "preset": "google",
+  "validateIndentation": "\t",
+  "disallowSpaceAfterKeywords": [
+    "if",
+    "for",
+    "while",
+    "do",
+    "switch",
+    "catch"
+  ],
+  "requireSpaceAfterKeywords": []
+}

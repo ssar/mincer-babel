@@ -8,7 +8,8 @@ env.appendPath(__dirname + '/fixtures');
 
 var compiledAsset = env.findAsset('example').toString();
 
-if (eval(compiledAsset) === 'success') {
+/* jshint evil:true */
+if(eval(compiledAsset) === 'success') {
 	console.log('OK');
 } else {
 	console.error('Failed to compile Babel');
