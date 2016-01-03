@@ -14,7 +14,7 @@ or add `mincer-babel` to your `package.json`:
 
 ```json
 "dependencies": {
-  "mincer-babel": "0.0.4"
+  "mincer-babel": "0.0.5"
 }
 ```
 
