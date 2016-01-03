@@ -1,6 +1,6 @@
 {
   "name": "mincer-babel",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Babel ES6 engine for Mincer",
   "main": "index.js",
   "scripts": {
@@ -27,8 +27,8 @@
   "dependencies": {
     "babel-core": "^5.2.17"
   },
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/ssar/mincer-babel.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssar/mincer-babel.git"
   }
 }
